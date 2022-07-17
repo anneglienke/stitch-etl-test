@@ -15,7 +15,7 @@ Stitch then does the upsert and loads the data to an AWS S3 bucket. Next, the da
 
 <br />
 
-## This repository 
+## Table of contents 
 
 | Content                  | Description |
 | ------                   | ------ |
