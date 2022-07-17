@@ -70,10 +70,6 @@ Three fields were created in the BI Analysts query:
  - `time_utc` - time field (%H:%i:%s) created from `datetime` to facilitate time aggregations.
  - `median_sentiment` - represents the numeric `median` field with text values such as 'positive','neutral','negative'. It was created to facilitate categorical analysis. 
 
-Some fields were not included in the BI Analysts query:
- - `_sdc_batched_at`, `_sdc_received_at`, `_sdc_sequence`, `_sdc_table_version` - these are added by Stitch to monitor the load, most likely not useful for BI Analysts.
- - `last` - according to SentiCrypt documentation, "this is not very useful and primarily for debugging", so it's also most likely not useful for BI Analysts.
-
 <br />
 
 ## Future improvements
